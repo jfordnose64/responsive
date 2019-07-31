@@ -1,12 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Halant:400,600,700&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
 
 html {
   height: 100%;
+  font-family: Halant, sans-serif;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+}
+
+.header {
+  font-size: 2.5rem;
+}
+
+.head_1 {
+  justify-content: center;
+  text-align: center;
+  border: 1rem solid #efd67b;
+  background-color: #efd67b;
+  padding: 1rem;
+}
+
+.flex_1 {
+  font-size: 1.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  text-align: center;
+}
+
+.art_1 {
+  justify-content: center;
+  display: flex;
+}
+
+.art_2 {
+  justify-content: center;
+  display: flex;
+}
+
+.art_3 {
+  justify-content: center;
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.paragraph {
+  padding: 3rem;
+  margin: 5rem;
+  flex-basis: 25%;
+  /* flex-direction: ; */
+}
+
+
+.art_3>section,
+.art_2>section {
+  flex-basis: 25%;
+}
+
+#flex_1 {
+  flex: 11111 10 40em;
+}
+
+* {
+  border: 1px solid green;
 }
