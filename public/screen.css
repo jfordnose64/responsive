@@ -26,16 +26,15 @@ body {
   padding: 1rem;
 }
 
-.flex_1 {
+#flex_1 {
   font-size: 1.5rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  text-align: center;
+  flex-basis: 50%;
 }
 
 .art_1 {
   justify-content: center;
   display: flex;
+  width: 100%;
 }
 
 .art_2 {
@@ -55,20 +54,24 @@ body {
 .paragraph {
   padding: 3rem;
   margin: 5rem;
-  flex-basis: 25%;
+  flex-basis: auto;
+  font-size: 1.5rem;
   /* flex-direction: ; */
 }
 
-
+.art_1>section,
 .art_3>section,
 .art_2>section {
   flex-basis: 25%;
 }
 
-#flex_1 {
-  flex: 11111 10 40em;
+.read_more {
+  font-weight: 900;
 }
 
-* {
-  border: 1px solid green;
+.hr_line {
+  background-color: black;
+  height: 4px;
+  margin-left: 0px;
+  width: 5.7rem;
 }
